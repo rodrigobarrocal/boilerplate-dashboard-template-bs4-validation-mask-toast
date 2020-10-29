@@ -1,11 +1,13 @@
-# Boilerplate
+# Boilerplate Dashboard
 
 * Boostrap 4
 * Gulp
-* Cockpit
+* Toastr
+* jQuery Validation and Mask
 
 ## Getting Started
+
 * `yarn`
 * `yarn dev:build`
 
-"# boilerplate-dashboard-template-bs4-validation-mask-toast" 
+"# boilerplate-dashboard-template-bs4-validation-mask-toast"
