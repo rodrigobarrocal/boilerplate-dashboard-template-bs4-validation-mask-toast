@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap");
+$font-family-base: "IBM Plex Sans", sans-serif;
+$font-weight-base: 300;
+$headings-font-family: "IBM Plex Sans", sans-serif;
+$headings-font-weight: 300;
+$display1-weight: 300;
+$display2-weight: 300;
+$display3-weight: 300;
+$display4-weight: 300;
+$brand: #d92c30;
+$secondary-brand: #000000;
+
+$background: url("/assets/images/country-quilt-dark.webp");
+
+$body-bg: #fff;
+$input-theme: $secondary-brand;
+$input-bg: #f3f5f6;
+
+$button-primary: $secondary-brand;
+$button-secondary: #f3f5f6;
+
+$theme-colors: (
+	"body-bg": $body-bg,
+	"input-theme": $input-theme,
+	"input-bg": $input-bg,
+	"button-primary": $button-primary,
+	"button-secondary": $button-secondary,
+	"brand": $brand,
+	"secondary-brand": $secondary-brand,
+	"black": #222,
+	"white": #fff,
+	"pix": #32bcad,
+	"cmsw": #ffd700,
+);
+$spacer: 9px;
+$spacers: (
+	0: 0,
+	1: (
+		$spacer * 1,
+	),
+	2: (
+		$spacer * 2,
+	),
+	3: (
+		$spacer * 3,
+	),
+	4: (
+		$spacer * 4,
+	),
+	5: (
+		$spacer * 5,
+	),
+	6: (
+		$spacer * 6,
+	),
+	7: (
+		$spacer * 7,
+	),
+	8: (
+		$spacer * 8,
+	),
+	9: (
+		$spacer * 9,
+	),
+	10: (
+		$spacer * 10,
+	),
+);
+$border-radius: 0px;
+$border-radius-lg: 0px;
+$border-radius-sm: 0px;
+$input-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);

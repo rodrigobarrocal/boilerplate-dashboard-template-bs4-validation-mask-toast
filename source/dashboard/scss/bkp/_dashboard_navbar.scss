@@ -1,0 +1,44 @@
+.navbar-app {
+	@extend .navbar-light;
+	background-color: #fff;
+	padding-top: $spacer;
+	padding-bottom: $spacer;
+	box-shadow: none;
+
+	.navbar-brand {
+		svg {
+			height: 45px;
+
+			.cls-1 {
+				isolation: isolate;
+			}
+
+			.cls-2 {
+				opacity: 0.15;
+				fill: #000;
+				mix-blend-mode: screen;
+			}
+
+			.cls-3 {
+				fill: #7dc683;
+			}
+
+			.cls-4 {
+				fill: #ffca32;
+			}
+
+			.cls-5 {
+				fill: #f05864;
+
+				// transform: translateX(66px);
+
+				// animation: popup 10s 1.5s ease infinite;
+			}
+
+			.cls-6 {
+				fill: #fff;
+				fill: #001c54;
+			}
+		}
+	}
+}

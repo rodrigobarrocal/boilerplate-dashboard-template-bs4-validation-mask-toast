@@ -1,0 +1,45 @@
+form {
+	.form-group {
+
+		.form-control,
+		.custom-select {
+			padding-left: 1rem;
+			padding-right: 0.25rem;
+			border-radius: 1.25rem;
+		}
+
+		.input-group {
+			&>.form-control:not(:first-child) {
+				padding-left: 0.5rem;
+				border-radius: 1.25rem;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+
+			.input-group-prepend {
+				.input-group-text {
+					border-radius: 1.25rem;
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+			}
+		}
+
+		&.infocus {
+			.input-group {
+				&>.form-control:not(:first-child) {
+					border-color: $brand-blue-high;
+				}
+			}
+		}
+
+	}
+
+	.btn {
+		border-radius: 1.25rem;
+	}
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0.0rem #008cfc55;
+}

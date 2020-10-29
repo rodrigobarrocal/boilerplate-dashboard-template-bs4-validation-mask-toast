@@ -1,0 +1,51 @@
+// Variables
+$brand-blue-high: #008cfc !default;
+$brand-blue: #001c54 !default;
+$brand-blue-title: #0038a8 !default;
+$brand-blue-low: #000e46 !default;
+$brand-blue-deep: #0e074d !default;
+
+// $navbar-height: 166px;
+
+$theme-colors: ("brand": $brand-blue,
+	"deep": $brand-blue-deep,
+	"primary": $brand-blue-title,
+	"secondary": #8898b0,
+	"white": #fff,
+	"light": #f3f5f6,
+	"black": #222,
+	"score-red": #f0515d,
+	"score-orange": #f78f47,
+	"score-yellow": #ffcd31,
+	"score-lime": #bbe566,
+	"score-green": #7dc683,
+	"red": #f0515d,
+	"yellow": #ffcd31,
+	"green": #7dc683);
+
+$body-color: #222222;
+$font-size-base: 0.85rem;
+$spacer: 16px;
+// Font Overrides
+$font-family-sans-serif: "Open Sans",
+sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+$headings-font-family: $font-family-sans-serif !default;
+// Heading Overrides
+// $h6-font-size: $font-size-base * 0.64;
+// $h5-font-size: $font-size-base * 0.8;
+// $h4-font-size: $font-size-base * 1.25;
+// $h3-font-size: $font-size-base * 1.563;
+// $h2-font-size: $font-size-base * 1.953;
+// $h1-font-size: $font-size-base * 2.441;
+
+$display4-size: $font-size-base * 3.052;
+$display3-size: $font-size-base * 3.815;
+$display2-size: $font-size-base * 4.768;
+$display1-size: $font-size-base * 5.96;
+
+$headings-font-weight: 300;
+
+$spacers: (6: ($spacer * 6), 7: ($spacer * 7), 8: ($spacer * 8), 9: ($spacer * 9));
+
+$input-login-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);

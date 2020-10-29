@@ -1,0 +1,131 @@
+@import "login-common";
+
+/*Globals*/
+html,
+body {
+	height: 100%;
+}
+
+.container-login {
+	background: $background;
+	// background-attachment: scroll;
+	// background-size: cover;
+	.form-col,
+	.image-col {
+		height: 100vh;
+		// width: 100%;
+	}
+	.form-col {
+		background-color: #fff;
+		-webkit-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.35);
+		-moz-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.35);
+		box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.35);
+	}
+	.image-col {
+		// background-color: #00c;
+	}
+}
+
+.card-login {
+	.logo {
+		@extend .mb-2;
+		width: 100%;
+		height: 80px;
+		background-image: url("/assets/images/CornerPIX_Lg.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	min-width: 360px;
+	max-width: 360px;
+	background-color: transparent;
+	border: 0px;
+
+	.card-header {
+		border-bottom: none !important;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+}
+
+form {
+	input:-webkit-autofill,
+	input:-webkit-autofill:hover,
+	input:-webkit-autofill:focus,
+	textarea:-webkit-autofill,
+	textarea:-webkit-autofill:hover,
+	textarea:-webkit-autofill:focus,
+	select:-webkit-autofill,
+	select:-webkit-autofill:hover,
+	select:-webkit-autofill:focus {
+		border: 0;
+		-webkit-box-shadow: 0 0 0 50px #ffffffff inset;
+		// -webkit-text-fill-color: #fff;
+	}
+	.btn {
+		box-shadow: $input-box-shadow;
+	}
+	.form-group {
+		.form-control,
+		.custom-select {
+			padding-left: 1rem;
+			padding-right: 0.25rem;
+			// border-radius: 1.25rem;
+		}
+
+		.input-group {
+			transition: box-shadow 0.15s ease;
+			& > .form-control:not(:first-child) {
+				background-color: $white;
+				border: 1px solid $input-theme;
+				border-left-width: 0;
+				// border-radius: 1.25rem;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				padding-left: 0.5rem;
+				color: $dark;
+
+				&::placeholder {
+					/* Chrome, Firefox, Opera, Safari 10.1+ */
+					color: rgba(0, 0, 0, 0.75);
+					opacity: 0.5;
+					/* Firefox */
+				}
+			}
+			.input-group-prepend {
+				margin-right: 0;
+				.input-group-text {
+					background-color: $white;
+					// border-radius: 1.25rem;
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+					border-right-width: 0;
+					border: 1px solid $input-theme;
+					border-right: 0;
+					box-shadow: none;
+					color: $input-theme;
+					padding-left: 1rem;
+					padding-right: 0.5rem;
+				}
+			}
+		}
+
+		&.infocus {
+			.input-group {
+				& > .form-control:not(:first-child) {
+					border-color: $input-theme;
+				}
+			}
+		}
+	}
+
+	.btn {
+		// border-radius: 1.25rem;
+	}
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}

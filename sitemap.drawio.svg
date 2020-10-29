@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="271px" height="151px" viewBox="-0.5 -0.5 271 151" content="&lt;mxfile host=&quot;localhost&quot; modified=&quot;2020-05-12T16:31:14.725Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.44.2 Chrome/78.0.3904.130 Electron/7.1.11 Safari/537.36&quot; version=&quot;13.0.9&quot; etag=&quot;N5R1ouaPyttLOVSJZbdC&quot;&gt;&lt;diagram id=&quot;xspqcPl3LCo9ihjXn546&quot;&gt;zZPBboQgEEC/xrtCa3evtbZ72fTgoWciUyFBMSxW7dcXy6CS7Sa9NOnFwJsZYB6Y0KKdXgzrxVlzUAlJ+ZTQp4SQIz247wJmD/L0zoPGSO5RtoFKfgLCFOkgOVyiRKu1srKPYa27DmobMWaMHuO0d63iXXvWwBWoaqau6ZvkVnh6IA8bP4FsRNg5y48+0rKQjJ1cBON63CFaJrQwWls/aqcC1OIuePF1zzei68EMdPY3BcQXfDA1YG+n13OJZ7NzaNjooeOw1KQJfRyFtFD1rF6io7thx4RtlZtlbohLgrEw3TxWtjbrHgnoFqyZXQoWkBT9zMEgzsdNdxYcip3qHBnDG27WpTcJboAefnZC/6cTeh87IX+nxE23J/gd2/3HtPwC&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="90" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 120px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                HOME
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="124" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    HOME
+                </text>
+            </switch>
+        </g>
+        <rect x="150" y="0" width="120" height="60" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 30px; margin-left: 151px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                HOME
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="210" y="34" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    HOME
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

@@ -1,0 +1,28 @@
+.logo {
+	&.logo-h-60 {
+		svg {
+			height: 60px;
+		}
+	}
+}
+
+// svg mask {
+// 	fill: rgba(0, 0, 0, 1);
+// }
+// svg mask rect {
+// 	fill: rgba(255, 255, 255, 1);
+// }
+
+@keyframes popup {
+	0% {
+		transform: translateX(66px);
+	}
+
+	50% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(66px);
+	}
+}

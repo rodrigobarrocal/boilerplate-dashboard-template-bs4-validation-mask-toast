@@ -1,0 +1,12 @@
+.phpintel
+*.log
+*.tmp
+*.tmp.*
+*.sublime-project
+*.sublime-workspace
+.vscode/
+npm-debug.log*
+node_modules/
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db

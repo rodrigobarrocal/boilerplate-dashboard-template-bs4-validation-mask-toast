@@ -1,0 +1,99 @@
+// Override Bootstrap default variables here
+// Do not edit any of the files in /vendor/bootstrap/scss/!
+
+// Color Variables
+// Bootstrap Color Overrides
+
+$white: #fff !default;
+$gray-100: #f8f9fc !default;
+$gray-200: #eaecf4 !default;
+$gray-300: #dddfeb !default;
+$gray-400: #d1d3e2 !default;
+$gray-500: #b7b9cc !default;
+$gray-600: #858796 !default;
+$gray-700: #6e707e !default;
+$gray-800: #5a5c69 !default;
+$gray-900: #3a3b45 !default;
+$black: #222 !default;
+// $breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);
+$breadcrumb-divider: quote("\f0da");
+$font-family-base: "IBM Plex Sans", sans-serif;
+$font-weight-base: 300;
+$headings-font-family: "IBM Plex Sans", sans-serif;
+$headings-font-weight: 300;
+$display1-weight: 300;
+$display2-weight: 300;
+$display3-weight: 300;
+$display4-weight: 300;
+$brand: #d92c30;
+$secondary-brand: #231f20;
+
+$theme-main: #f3f5f6;
+$theme-main-top: #ffffff;
+
+$theme-sidebar-primary: #231f20;
+$theme-sidebar-secondary: #fff;
+$theme-sidebar-top: $brand;
+
+$theme-colors: (
+	"brand": $brand,
+	"secondary-brand": $secondary-brand,
+	"black": #222,
+	"white": #fff,
+	"pix": #32bcad,
+	"cmsw": #ffd700,
+);
+$spacer: 8px;
+$spacers: (
+	0: 0,
+	1: (
+		$spacer * 1,
+	),
+	2: (
+		$spacer * 2,
+	),
+	3: (
+		$spacer * 3,
+	),
+	4: (
+		$spacer * 4,
+	),
+	5: (
+		$spacer * 5,
+	),
+	6: (
+		$spacer * 6,
+	),
+	7: (
+		$spacer * 7,
+	),
+	8: (
+		$spacer * 8,
+	),
+	9: (
+		$spacer * 9,
+	),
+	10: (
+		$spacer * 10,
+	),
+);
+$border-radius: 0px;
+$border-radius-lg: 0px;
+$border-radius-sm: 0px;
+$input-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+// $font-size-base: 13px.
+
+// Custom Colors
+// $brand-google: #ea4335;
+// $brand-facebook: #3b5998;
+
+// Set Contrast Threshold
+$yiq-contrasted-threshold: 195 !default;
+
+// Typography
+$body-color: $black !default;
+
+// Shadows
+$box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($gray-900, 0.2) !default;
+$box-shadow: 0 0.15rem 1.75rem 0 rgba($gray-900, 0.15) !default;

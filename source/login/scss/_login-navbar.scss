@@ -1,0 +1,48 @@
+%transition-all {
+	transition: all 0.8s ease;
+}
+
+.navbar-marketing,
+.navbar-internal {
+	@extend .navbar-light;
+	@extend %transition-all;
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.27);
+
+	.navbar-brand {
+		// background-color: $brand;
+		padding: 0;
+		@extend %transition-all;
+
+		svg {
+			height: 45px;
+			@extend %transition-all;
+		}
+	}
+
+	.btn {
+		margin: 0 4.5px;
+	}
+
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: $secondary-brand;
+				padding: 4.5px;
+				margin: 0 2.7px;
+				font-family: "Montserrat";
+				font-weight: 800;
+				font-size: 13px;
+				line-height: 17.5px;
+				text-transform: uppercase;
+
+				&.active {
+					color: $brand;
+				}
+
+				&:hover {
+					color: $brand;
+				}
+			}
+		}
+	}
+}

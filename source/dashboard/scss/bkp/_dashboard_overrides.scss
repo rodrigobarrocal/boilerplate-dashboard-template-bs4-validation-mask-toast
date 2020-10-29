@@ -1,0 +1,47 @@
+#toast-container {
+	&>.toast {
+		padding: 1rem;
+		margin: 0.25rem 0 0.5rem 0;
+		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.55);
+		backdrop-filter: none;
+		opacity: 0.90;
+
+		&:hover {
+			box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0);
+			opacity: 1;
+		}
+
+
+		&.toast-success {
+			background-image: none !important;
+			background-color: $success;
+		}
+
+		&.toast-info {
+			background-image: none !important;
+			background-color: $info;
+		}
+
+		&.toast-warning {
+			background-image: none !important;
+			background-color: $warning;
+			color: #222;
+		}
+
+		&.toast-error {
+			background-image: none !important;
+			background-color: $danger;
+		}
+
+		&:before {
+			// position: fixed;
+			// font-family: FontAwesome;
+			// font-size: 24px;
+			// line-height: 18px;
+			// float: left;
+			// color: #FFF;
+			// padding-right: 0.5em;
+			// margin: auto 0.5em auto -1.5em;
+		}
+	}
+}
